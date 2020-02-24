@@ -13,15 +13,16 @@ int harfAscii;
 char harf;
 int test,fark;
 int uzunluk ;
-printf("\n 1.Şifrelemek istiyorum... \n 2.Şifre çözmek istiyorum...\n");
+printf("\n 1.Åifrelemek istiyorum... \n 2.Åifre Ã§Ã¶zmek istiyorum...\n");
 scanf("%d",&secim);
-     printf("Kullanma talimatlar... \n ==> Bitirmek içim * a bas.. \n ==> Boşluk için < bas.. \n");
+     printf("Kullanma talimatlar... \n ==> Bitirmek iÃ§im * a bas.. \n ==> BoÅŸluk iÃ§in < bas.. \n");
      char yeniHarf;
      int sifre[7],sifrelemeAnahtari,sifreSayac=0,anahtarAtama,harfSayac=0,karakterUzunlugu;
     int diziSayac=0;
-    printf(" Şifreleme anahtarını gir... (8 TANE RAKAM) \n");
+    printf(" Åifreleme anahtarÄ±nÄ± gir... (8 Tane SayÄ±) \n");
     for( diziSayac;diziSayac<8;diziSayac++){
         scanf("%d",&sifrelemeAnahtari);
+sifrelemeAnahtari=sifrelemeAnahtari%10;
         sifre[diziSayac]=sifrelemeAnahtari;
 
     }
